@@ -1,0 +1,186 @@
+<?xmlversion = "1.0" encoding = "utf-8"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+     "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+	 
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+    <meta name="authors" content="Ryan Wilson" />
+    <title> Ryan Wilson &mdash; Stanford CS</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="wilson.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <img src="headshot.jpg" id="headshot" alt="My Headshot" /> 
+	<div id = "nav">
+	  <div id="name"> Ryan Wilson </div>
+	  <ul>
+            <li onclick="change_hash('home')">Home</li>
+            <li onclick="change_hash('research')">Academics & Research</li>
+            <li onclick="change_hash('interests')">Interests</li>
+            <li onclick="change_hash('resume')">Resume</li>
+	  </ul>
+	</div>
+	<a href="http://cs.stanford.edu/" id="cspic">
+	  <img src="stanford_cs_logo.png" alt="Stanford CS Logo" />
+	</a>
+      </div>
+      <hr />
+      <div id="content">
+	<div id="home">
+	  <p>
+	    Welcome! I am a second-year graduate student at Stanford
+	    University. Currently, I am in the ICME program, but I am
+	    looking to earn a masters degree in Computer Science with a
+	    specialization in Computer and Network Security. My academic
+	    interests lie in software virtualization, networking and
+	    security. If you wish, you can email me at rtwilson [at]
+	    stanford [dot] edu.
+	  </p>
+	  <br/>
+	  <div id="xkcd_pic">
+	    <img src="xkcd_pic.png" alt="XKCD comic" />
+	  </div>
+	</div>
+	<div id="resume">
+	  <p> If your browser does not allow embedding, then here is a link to
+	    <a href="resume.pdf">my resume</a>.
+	  </p>
+	  <br /> <br/>
+	  <embed src="resume.pdf" width="800px" height="500px" alt="My Resume"></embed> 
+	</div>
+	<div id="research">
+	  <h2> Work Experience </h2>
+	  <p>
+	    During the spring and summer of 2012, I completed an
+	    internship at Nicira (recently acquired by VMware) working in
+	    the Tools team. The Tools team creates, optimizes and repairs
+	    build tools, which involves a combination of programming and
+	    system administrator work. My primary project was to design a
+	    distributed compilation system to improve build times on the second
+	    phase of the process known as the “second make”. Not only was it
+	    critical that the system reduce build time, it was imperative that
+	    the system be resistant to failure. After completing this
+	    task, the “second make”, once requiring 130 minutes, now
+	    completes in 40 minutes, a 70% improvement. Furthermore, I created a
+	    web application using the Django framework to aggregate and
+	    visualize build information. I also added automated bug finding
+	    using git bisect to Nicira's unit testing software.
+	  </p>
+	  <h2> Research </h2>
+	  <p>
+	    During the summer of 2012, I worked with Stanford’s computer
+	    science research group MobiSocial to develop a mobile music
+	    application for iPhone, known as Jinzora. I implemented remote
+	    downloads and local caching features and integrated
+	    Jinzora with the MobiSocial's social application Musubi for
+	    Iphone to enable playlist sharing between friends.
+	  </p>
+	  <p>
+	    During the summer of 2011, I conducted robotics research 
+	    at UCLA with a team of students from Harvey Mudd College
+	    under the guidance of Professor Jerome Gilles. Using a Xilinx
+	    FPGA console and Matlab, we made significant progress toward
+	    implementing robot swarm-to-swarm communication in real time
+	    with another robotics team at the University of Cincinnati.
+	    While communication between the two robot swarms was complicated
+	    by dissimilar API's, we were able to perform simulations between
+	    two virtual swarms over a network and measure the performance.
+	    We also achieved real-time swarm-to-swarm communication
+	    between a swarm of actual robots and a virtual swarm. In
+	    particular, I wrote the code for the swarming algorithm on
+	    both the simulated and actual robots, the network
+	    communication scripts and the data parsing functions. I also
+	    designed a barrier avoidance algorithm, which was successful
+	    both in simulation and implementation. We published a paper
+	    entitled "Robot Swarming Over the Internet," which was
+	    submitted to the 2012 American Control Conference.
+	  </p>
+	  <p>
+	    During the summer of 2010, I was among a team of students at
+	    UCLA doing research in mathematical biology, led by Professor
+	    Maria-Grazia-Ascenzi and Professor George Mohler. The goals of
+	    this project were to mathematically model cell reproduction in
+	    the growth plate and statistically analyze cell photographs to
+	    confirm the accuracy of these models. My assigned task in this
+	    project was to use image processing and statistical techniques
+	    to accelerate data collection, which, before this point, was
+	    done manually. The paper is published in Volume 285, Issue 1
+	    of the Journal of Theoretical Biology as "Effect of
+	    localization, length and orientation of chondrocytic primary
+	    cilium on murine growth plate organization." 
+	  </p>
+	  <h2> Teaching </h2>
+	  <p>
+	    I am a Course Assistant for CME 102 during the Winter 2012 and
+	    2013 quarters. The class focuses on both the theory and
+	    implementation of concepts in numerical analysis. The
+	    programming language used in this course is Matlab.
+	  </p>
+	  <h2> Graduate Coursework</h2>
+	  <h4> Fall 2011 </h4>
+	  <ul>
+	    <li>CS 107: Computer Organization and Systems </li>
+	    <li>CS 221: Artificial Intelligence: Principles and Techiques</li>
+	    <li>CS 259C: Elliptic Curves in Cryptography</li>
+	  </ul>
+	  <h4> Winter 2012 </h4>
+	  <ul>
+	    <li>CS 110: Principles of Computer Systems </li>
+	    <li>CS 246: Mining Massive Data Sets</li>
+	    <li>CS 255: Introduction to Cryptography</li>
+	  </ul>
+	  <h4> Spring 2012 </h4>
+	  <ul>
+	    <li>CS 143: Compilers </li>
+	    <li>CS 276: Information Retrieval and Web Search</li>
+	    <li>CS 294S: Research Project in Software Systems and Security</li>
+	  </ul>
+	  <h4> Fall 2012 </h4>
+	  <ul>
+	    <li>CS 140: Operating Systems and Systems Programming </li>
+	    <li>CS 144: Introduction to Computer Networking</li>
+	    <li>CS 145: Introduction to Databases</li>
+	  </ul>
+	  <h4> Winter 2013 </h4>
+	  <ul>
+	    <li>CS 240: Advanced Topics in Operating Systems </li>
+	    <li>CS 244: Advanced Topics in Computer Networking</li>
+	    <li>CS 245: Database System Principles</li>
+	  </ul>
+	  <h2> Undergraduate Coursework</h2>
+	  <p> Selection of Completed Courses </p>
+	  <ul>
+	    <li> Basic C/C++ Programming </li>
+	    <li> Cryptography </li>
+	    <li> Multivariable Calculus </li>
+	    <li> Linear Algebra </li>
+	    <li> Abstract Algebra </li>
+	    <li> Complex / Real Analysis </li>
+	    <li> Algorithms and Complexity </li>
+	    <li> Probability Theory </li>
+	    <li> Ordinary / Partial Differential Equations </li>
+	    <li> Numerical Analysis </li>
+	    <li> Mathematical Modeling </li>
+	  </ul>
+	</div>
+	<div id="interests">
+	  <p>
+	    I am a frequent reader of Reddit and Hacker News. I also watch lots
+	    of television shows (to name a few: Archer, Californication,
+	    Parks and Rec) and stand-up comedy (Daniel Tosh, Louis C.K. and Dave
+	    Chappelle are my favorites). In terms of my more active hobbies, I
+	    also play volleyball, and go to electronic dance music festivals
+	    and concerts often. Although it may be stating the obvious, I like
+	    to program on my free time. Below is a link to my Github account.
+	  </p>
+	  <div id="github_pic">
+	    <a href="http://github.com/rtwilson">
+	      <img src="github.png" alt="My Github account" />
+	    </a>
+	  </div>
+	</div>
+      </div>
+  </body>
+</html>

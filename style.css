@@ -1,0 +1,85 @@
+body 
+{
+	width: 975px;
+	margin-left  : auto;
+    margin-right : auto;
+    background  : White;
+    font-family : sans-serif;
+    font-size   : 16px;
+}
+
+#header
+{
+	height: 160px;
+}
+
+#headshot
+{
+	float: left;
+	width: 110px;
+	height: 160px;
+	border : 1px solid black;
+}
+
+#cspic img
+{
+	float: right;
+    width  : 160px;
+    height : 110px;
+	margin-top: 20px;
+}
+
+#github_pic
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 512px;
+	height: 512px;
+}
+
+#xkcd_pic
+{
+        margin-left: auto;
+        margin-right: auto;
+	width: 405px;
+	height: 357px;
+}
+
+#name
+{
+	margin-top: 30px;
+	font-size   : 48px;
+	text-align  : center;
+}
+
+#nav 
+{
+    display     : block;
+    font-weight : bold;
+    text-align  : center;
+    float       : left;
+    width       : 700px;
+}
+
+#nav ul
+{
+	font-size: 20px;
+}
+
+#nav ul li
+{
+	float: left;
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-align: center;
+	cursor: pointer;
+	color: black;
+	text-decoration: none;
+}
+
+h2
+{
+	text-align: center;
+}
