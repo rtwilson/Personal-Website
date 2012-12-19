@@ -1,7 +1,7 @@
 body 
 {
-	width: 975px;
-	margin-left  : auto;
+    width: 975px;
+    margin-left  : auto;
     margin-right : auto;
     background  : White;
     font-family : sans-serif;
@@ -10,46 +10,46 @@ body
 
 #header
 {
-	height: 160px;
+    height: 160px;
 }
 
 #headshot
 {
-	float: left;
-	width: 110px;
-	height: 160px;
-	border : 1px solid black;
+    float: left;
+    width: 110px;
+    height: 160px;
+    border : 1px solid black;
 }
 
 #cspic img
 {
-	float: right;
+    float: right;
     width  : 160px;
     height : 110px;
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 #github_pic
 {
-	margin-left: auto;
-	margin-right: auto;
-	width: 512px;
-	height: 512px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 512px;
+    height: 512px;
 }
 
 #xkcd_pic
 {
-        margin-left: auto;
-        margin-right: auto;
-	width: 405px;
-	height: 357px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 405px;
+    height: 357px;
 }
 
 #name
 {
-	margin-top: 30px;
-	font-size   : 48px;
-	text-align  : center;
+    margin-top: 30px;
+    font-size   : 48px;
+    text-align  : center;
 }
 
 #nav 
@@ -63,23 +63,23 @@ body
 
 #nav ul
 {
-	font-size: 20px;
+    font-size: 20px;
 }
 
 #nav ul li
 {
-	float: left;
-	display: inline;
-	list-style-type: none;
-	padding-right: 20px;
-	padding-left: 20px;
-	text-align: center;
-	cursor: pointer;
-	color: black;
-	text-decoration: none;
+    float: left;
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
 }
 
 h2
 {
-	text-align: center;
+    text-align: center;
 }
